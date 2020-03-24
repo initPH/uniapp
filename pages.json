@@ -1,0 +1,70 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark",
+				"app-plus": {
+					"titleNView": true
+				}
+				// "transparentTitle": "auto"
+				
+			}
+		},
+		{
+			"path": "pages/page2/index",
+			"style": {
+				"navigationBarTitleText": "第二页"
+			}
+		},
+		{
+			"path": "pages/page3/page3",
+			"style": {
+				"navigationBarTitleText": "第三页"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"fontSize": "5px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "视图容器"
+			},
+			{
+				"pagePath": "pages/page2/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "基础内容"
+			},
+			{
+				"pagePath": "pages/page3/page3",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "表单组件"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ph-helloWorld",
+		"navigationBarBackgroundColor": "#f8f8f8",
+		"backgroundColor": "#aaa",
+		"backgroundTextStyle": "dark",
+		"onReachBottomDistance": 20,
+		"backgroundColorTop": "#000",
+		"transparentTitle": "auto",
+		"app-plus": {
+			"titleNView": false
+		}
+	},
+	"easycom": {
+		"autoscan": true
+	}
+}
